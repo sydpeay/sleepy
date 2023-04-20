@@ -3,21 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>sydissleepy</title>
-
     <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/creations/creationstyle.css" rel="stylesheet" type="text/css" media="all" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/cc05f554d0.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet" />
+    <script src="/creations/creations.js"></script>
   </head>
-
   <body>
     <div id="content">
       <header>
@@ -29,33 +20,15 @@
           <a href="creations/index.html">creations</a>
         </nav>
       </header>
-
       <div id="mainDiv">
         <main>
           <div id="toggleBar">
-            <button
-              id="listBtn"
-              class="toggleBtn"
-              onclick="toggleLayout('list')"
-            >
-              list
-            </button>
-            <button
-              id="gridBtn"
-              class="toggleBtn active"
-              onclick="toggleLayout('grid')"
-            >
-              grid
-            </button>
+            <button id="listBtn" class="toggleBtn" onclick="toggleLayout('list')"> list </button>
+            <button id="gridBtn" class="toggleBtn active" onclick="toggleLayout('grid')"> grid </button>
           </div>
-
-          <div id="feed" class="grid">
-					
-					</div>
+          <div id="feed" class="grid"></div>
         </main>
       </div>
-
     </div>
   </body>
-	
 </html>
