@@ -1,0 +1,55 @@
+#updates {
+  max-height: 20em;
+  overflow-x: scroll;
+}
+
+#updates ul {
+  list-style: none;
+}
+
+#updates li {
+  border-bottom: 1px dashed magenta;
+  padding: 0.5em 0;
+}
+
+#buttonBoxGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#buttonBoxGroup p {
+  margin: 0.5em;
+}
+
+#buttonEmbed {
+  background: pink;
+  color: black;
+  border-color: magenta;
+  width: 100%;
+}
+
+#buttonsLoad {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  #mainDiv {
+    flex-direction: row;
+  }
+
+  main {
+    width: 67%;
+  }
+
+  aside {
+    width: 33%;
+  }
+
+  #buttonBoxGroup {
+    flex-direction: column;
+  }
+}

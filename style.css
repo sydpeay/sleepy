@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Courier, monospace;
+  color: white;
+}
+
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: "Silkscreen", Courier, monospace;
+  font-size: 3em;
+  color: magenta;
+  text-shadow: 4px 2px cyan;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Silkscreen", Courier, monospace;
+  font-size: 2em;
+  color: magenta;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px cyan;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0.25em 0;
+}
+
+nav a {
+  padding: 0.5em 1em;
+  font-size: 1.25em;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 1px dashed magenta;
+}
+
+#mainDiv {
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+}
+
+.box {
+  border: 1px dashed magenta;
+  margin: 0.5em 0.5em;
+  padding: 0.75em;
+}
+
+@media screen and (min-width: 600px) {
+}
