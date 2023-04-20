@@ -1,0 +1,82 @@
+#toggleBar {
+	display: flex;
+	margin: 0.5em;
+}
+
+.toggleBtn {
+	background: black;
+	border: 1px dashed magenta;
+	padding: 0.5em;
+	color: magenta;
+}
+
+.toggleBtn:hover {
+	background: cyan;
+	color: black;
+}
+
+.active {
+	background: magenta;
+	color: black;
+	font-weight: bold;
+}
+
+.creation {
+}
+
+.entryLink {
+	text-decoration: none;
+}
+
+.title {
+	font-size: 1.5em;
+	text-shadow: 1px 1px cyan;
+}
+
+.title:hover {
+	color: cyan;
+	text-shadow: 1px 1px magenta;
+}
+
+.hero {
+	width: 100%;
+}
+
+.date {
+	color: magenta;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto;
+}
+
+.grid .hero {
+	height: 17em;
+	object-fit: contain;
+	
+}
+
+.grid h2 {
+	display: none;
+}
+
+.grid p {
+	display: none;
+}
+
+@media screen and (min-width: 480px) {
+	
+	.grid {
+		grid-template-columns: auto auto;
+	}
+	
+}
+
+@media screen and (min-width: 600px) {
+	
+	.grid {
+		grid-template-columns: auto auto auto;
+	}
+	
+}
